@@ -1,5 +1,0 @@
-commands_restrictions:
-  copy:
-    conditions:
-      - -sender = github-actions[bot]
-      - sender-permission >= write
