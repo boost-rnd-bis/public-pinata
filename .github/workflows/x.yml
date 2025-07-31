@@ -1,0 +1,16 @@
+name: test
+
+# on: [pull_request_target]
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          #ref: "${{ github.head_ref }}"
+          ref: "refs/pull/15/head"
+          #ref: "d551ba8"
+      - run: echo "Hello world"
