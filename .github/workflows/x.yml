@@ -1,7 +1,7 @@
 name: test
 
-# on: [pull_request_target]
-on: push
+on: [pull_request_target]
+# on: push
 
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          #ref: "${{ github.head_ref }}"
+          ref: "${{ github.head_ref }}"
           # ref: "refs/pull/15/head"
-          ref: "d551ba8ef4af3fefda39d1ddd2015757970ce5ce"
+          # ref: "d551ba8ef4af3fefda39d1ddd2015757970ce5ce"
       - run: echo "Hello world"
