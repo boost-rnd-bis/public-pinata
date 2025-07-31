@@ -11,6 +11,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           #ref: "${{ github.head_ref }}"
-          ref: "refs/pull/15/head"
-          #ref: "d551ba8"
+          # ref: "refs/pull/15/head"
+          ref: "d551ba8"
       - run: echo "Hello world"
