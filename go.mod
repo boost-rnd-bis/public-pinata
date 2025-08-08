@@ -12,14 +12,15 @@ require (
 	github.com/package-url/packageurl-go v0.1.3
 	github.com/rs/zerolog v1.33.0
 	github.com/schollz/progressbar/v3 v3.17.1
-	github.com/shurcooL/githubv4 v0.0.0-20240727222349-48295856cce7
-	github.com/spf13/cobra v1.8.1
-	github.com/spf13/viper v1.19.0
-	github.com/stretchr/testify v1.10.0
-	gitlab.com/gitlab-org/api/client-go v0.116.0
-	golang.org/x/oauth2 v0.24.0
-	golang.org/x/sync v0.8.0
-	gopkg.in/yaml.v3 v3.0.1
+        github.com/shurcooL/githubv4 v0.0.0-20240727222349-48295856cce7
+        github.com/spf13/cobra v1.8.1
+        github.com/spf13/viper v1.19.0
+        github.com/stretchr/testify v1.10.0
+        github.com/gorilla/mux v1.8.1
+        gitlab.com/gitlab-org/api/client-go v0.116.0
+        golang.org/x/oauth2 v0.24.0
+        golang.org/x/sync v0.8.0
+        gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
@@ -35,7 +36,6 @@ require (
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
