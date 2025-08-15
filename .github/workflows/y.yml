@@ -6,4 +6,4 @@ jobs:
     steps:
     - run: |
         # Hello ${{ github.event.pull_request.title }}
-        Wow
+        echo Wow
